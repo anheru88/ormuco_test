@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "d266dead-560f-40be-91bf-5dc509182481",
+		"name": "Ormuco",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Flavors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"utb@ormuco.com\",\n    \"password\" : \"ILOVEUTB2021\",\n    \"project_id\" : \"2ee7b627f154414f83ffdbbf6c78999f\",\n    \"auth_url\" : \"https://api-acloud.ormuco.com:5000/v3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/flavors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"flavors"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "utb@ormuco.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "ILOVEUTB2021",
+							"disabled": true
+						},
+						{
+							"key": "project_id",
+							"value": "2ee7b627f154414f83ffdbbf6c78999f",
+							"disabled": true
+						},
+						{
+							"key": "auth_url",
+							"value": "https://api-acloud.ormuco.com:5000/v3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Servers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"utb@ormuco.com\",\n    \"password\" : \"ILOVEUTB2021\",\n    \"project_id\" : \"2ee7b627f154414f83ffdbbf6c78999f\",\n    \"auth_url\" : \"https://api-acloud.ormuco.com:5000/v3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/servers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"servers"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "utb@ormuco.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "ILOVEUTB2021",
+							"disabled": true
+						},
+						{
+							"key": "project_id",
+							"value": "2ee7b627f154414f83ffdbbf6c78999f",
+							"disabled": true
+						},
+						{
+							"key": "auth_url",
+							"value": "https://api-acloud.ormuco.com:5000/v3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Servers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"utb@ormuco.com\",\n    \"password\" : \"ILOVEUTB2021\",\n    \"project_id\" : \"2ee7b627f154414f83ffdbbf6c78999f\",\n    \"auth_url\" : \"https://api-acloud.ormuco.com:5000/v3\", \n    \"server_name\" : \"server_api\",\n    \"flavor\" : \"general.pico.tmp.linux\",\n    \"key_name\" : \"Angel-UTB\",\n    \"image\" : \"294eeb80-ce67-459d-8447-7dad67241dd0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/servers/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"servers",
+						"create"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "utb@ormuco.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "ILOVEUTB2021",
+							"disabled": true
+						},
+						{
+							"key": "project_id",
+							"value": "2ee7b627f154414f83ffdbbf6c78999f",
+							"disabled": true
+						},
+						{
+							"key": "auth_url",
+							"value": "https://api-acloud.ormuco.com:5000/v3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Images",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"utb@ormuco.com\",\n    \"password\" : \"ILOVEUTB2021\",\n    \"project_id\" : \"2ee7b627f154414f83ffdbbf6c78999f\",\n    \"auth_url\" : \"https://api-acloud.ormuco.com:5000/v3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/images",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"images"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "utb@ormuco.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "ILOVEUTB2021",
+							"disabled": true
+						},
+						{
+							"key": "project_id",
+							"value": "2ee7b627f154414f83ffdbbf6c78999f",
+							"disabled": true
+						},
+						{
+							"key": "auth_url",
+							"value": "https://api-acloud.ormuco.com:5000/v3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Keys",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"utb@ormuco.com\",\n    \"password\" : \"ILOVEUTB2021\",\n    \"project_id\" : \"2ee7b627f154414f83ffdbbf6c78999f\",\n    \"auth_url\" : \"https://api-acloud.ormuco.com:5000/v3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/keys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"keys"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "utb@ormuco.com",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "ILOVEUTB2021",
+							"disabled": true
+						},
+						{
+							"key": "project_id",
+							"value": "2ee7b627f154414f83ffdbbf6c78999f",
+							"disabled": true
+						},
+						{
+							"key": "auth_url",
+							"value": "https://api-acloud.ormuco.com:5000/v3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
